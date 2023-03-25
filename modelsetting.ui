@@ -14,7 +14,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Configurr Model</string>
+   <string>Configure Model</string>
   </property>
   <widget class="QGroupBox" name="groupModelSetting">
    <property name="geometry">
