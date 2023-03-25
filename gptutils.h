@@ -25,7 +25,7 @@ Q_DECLARE_METATYPE(gpt_params);
 
 #include <QVector>
 #include <QMap>
-#include "ggml.h"
+#include "ggml\ggml.h"
 
 static const QMap<int, int> LLAMA_N_PARTS = {
     { 4096, 1 },
