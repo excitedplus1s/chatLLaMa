@@ -9,5 +9,10 @@ llama.cpp Desktop Client Demo
 
 ![image](https://user-images.githubusercontent.com/81917660/227721934-a1f4d29e-7783-4a78-a042-1892059f41fb.png)
 
+Chinese Support
+
+![image](https://user-images.githubusercontent.com/81917660/227727428-0f655f1c-760c-4142-98b7-13d74c1fb000.png)
+
+
 # Credit
 [llama.cpp]https://github.com/ggerganov/llama.cpp
