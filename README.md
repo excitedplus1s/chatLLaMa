@@ -11,7 +11,7 @@ llama.cpp Desktop Client Demo
 
 Chinese Support
 
-![image](https://user-images.githubusercontent.com/81917660/227727428-0f655f1c-760c-4142-98b7-13d74c1fb000.png)
+![image](https://user-images.githubusercontent.com/81917660/228905661-581fc20f-1498-4a42-8b36-eabe4ae3d081.png)
 
 
 # Credit
