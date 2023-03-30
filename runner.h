@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QThread>
 #include <QString>
-#include "gptutils.h"
+#include "common.h"
 
 class Runner : public QObject
 {

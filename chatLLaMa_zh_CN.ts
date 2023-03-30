@@ -157,7 +157,8 @@
     <name>modelsetting</name>
     <message>
         <location filename="modelsetting.ui" line="17"/>
-        <source>Configurr Model</source>
+        <source>Configure Model</source>
+        <oldsource>Configurr Model</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>

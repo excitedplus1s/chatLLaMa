@@ -2,7 +2,7 @@
 #define MODELSETTING_H
 
 #include <QDialog>
-#include "gptutils.h"
+#include "common.h"
 
 namespace Ui {
 class modelsetting;

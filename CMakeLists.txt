@@ -28,9 +28,12 @@ set(PROJECT_SOURCES
         processor.cpp
         runner.h
         runner.cpp
-        gptutils.h
-        ggml/ggml.h
-        ggml/ggml.c
+        common.h
+        common.cpp
+        llama/ggml.h
+        llama/ggml.c
+        llama/llama.h
+        llama/llama.cpp
         ${TS_FILES}
 )
 

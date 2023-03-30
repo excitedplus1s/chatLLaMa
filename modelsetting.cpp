@@ -61,10 +61,6 @@ void modelsetting::packModelParams(gpt_params &params)
 {
     params.model = QString("models/%1/ggml-model.bin").arg(ui->modelSize->currentText());
     params.seed = ui->seed->text().toInt();
-    if(params.seed < 0)
-    {
-        params.seed = QTime(0,0,0).secsTo(QTime::currentTime());
-    }
     params.n_predict = ui->n_predict->text().toInt();
     params.top_k = ui->top_k->text().toInt();
     params.top_p = ui->top_p->text().toFloat();

@@ -18,7 +18,6 @@ MainWindow::MainWindow(QWidget *parent)
     connect(runner, &Runner::loadModelPercent, dia, &modelsetting::updateModelPercent);
     connect(runner, &Runner::loadModelStatus, dia, &modelsetting::updateloadStatus);
     connect(runner, &Runner::loadModelStatus, [this](bool successed, const QString){if(successed) this->enableSendMessageButton();});
-
 }
 
 MainWindow::~MainWindow()
