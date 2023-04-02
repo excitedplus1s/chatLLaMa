@@ -13,6 +13,10 @@ Chinese Support
 
 ![image](https://user-images.githubusercontent.com/81917660/228905661-581fc20f-1498-4a42-8b36-eabe4ae3d081.png)
 
+Chat Mode
+
+![image](https://user-images.githubusercontent.com/81917660/229338107-f4bcb420-0afd-482d-9a0c-2da8617cd8c7.png)
+
 
 # Credit
 [llama.cpp]https://github.com/ggerganov/llama.cpp
