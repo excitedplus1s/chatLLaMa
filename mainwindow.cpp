@@ -36,14 +36,17 @@ void MainWindow::on_action_LoadModel_triggered()
 
 void MainWindow::on_sendMessageButton_clicked()
 {
-    emit runner->sendMessage(ui->sendMessageTextEdit->toPlainText());
-    ui->chatMeaasge->clear();
+    auto sendbuf = ui->sendMessageTextEdit->toPlainText();
+    emit runner->sendMessage(sendbuf);
+    ui->sendMessageTextEdit->clear();
+    set_label(QString("\nUser: %1\nChatLLaMa:").arg(sendbuf));
 }
 
 void MainWindow::set_label(const QString &token)
 {
     QString txt = ui->chatMeaasge->toPlainText() + token;
     ui->chatMeaasge->setPlainText(txt);
+    ui->chatMeaasge->moveCursor(QTextCursor::End);
 }
 
 void MainWindow::disableSendMessageButton()

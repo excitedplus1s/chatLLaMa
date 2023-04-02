@@ -142,14 +142,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="94"/>
-        <source>Model Manager(&amp;O)</source>
+        <location filename="mainwindow.ui" line="85"/>
+        <source>File(&amp;F)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="85"/>
-        <source>File(&amp;F)</source>
-        <oldsource>文件(&amp;F)</oldsource>
+        <location filename="mainwindow.ui" line="94"/>
+        <source>Model Manager(&amp;O)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -158,7 +157,6 @@
     <message>
         <location filename="modelsetting.ui" line="17"/>
         <source>Configure Model</source>
-        <oldsource>Configurr Model</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -212,17 +210,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="modelsetting.ui" line="113"/>
-        <source>128</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="modelsetting.ui" line="120"/>
         <source>40</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="modelsetting.ui" line="127"/>
+        <location filename="modelsetting.ui" line="148"/>
         <source>0.9</source>
         <translation type="unfinished"></translation>
     </message>
@@ -232,13 +225,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="modelsetting.ui" line="141"/>
-        <source>1.3</source>
+        <location filename="modelsetting.ui" line="113"/>
+        <source>2048</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="modelsetting.ui" line="148"/>
-        <source>0.8</source>
+        <location filename="modelsetting.ui" line="127"/>
+        <source>0.63</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="modelsetting.ui" line="141"/>
+        <source>1.3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

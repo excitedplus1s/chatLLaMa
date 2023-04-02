@@ -110,7 +110,7 @@
        <item>
         <widget class="QLineEdit" name="n_predict">
          <property name="text">
-          <string>128</string>
+          <string>2048</string>
          </property>
         </widget>
        </item>
@@ -124,7 +124,7 @@
        <item>
         <widget class="QLineEdit" name="top_p">
          <property name="text">
-          <string>0.9</string>
+          <string>0.63</string>
          </property>
         </widget>
        </item>
@@ -145,7 +145,7 @@
        <item>
         <widget class="QLineEdit" name="temperature">
          <property name="text">
-          <string>0.8</string>
+          <string>0.9</string>
          </property>
         </widget>
        </item>

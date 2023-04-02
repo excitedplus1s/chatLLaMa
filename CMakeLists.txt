@@ -10,7 +10,11 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
 
+find_package(Threads REQUIRED)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
 
@@ -36,6 +40,31 @@ set(PROJECT_SOURCES
         llama/llama.cpp
         ${TS_FILES}
 )
+
+if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "arm" OR ${CMAKE_SYSTEM_PROCESSOR} MATCHES "aarch64")
+    message(STATUS "ARM detected")
+    if (MSVC)
+        # TODO: arm msvc?
+    else()
+        if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "aarch64")
+            add_compile_options(-mcpu=native)
+        endif()
+        # TODO: armv6,7,8 version specific flags
+    endif()
+elseif (${CMAKE_SYSTEM_PROCESSOR} MATCHES "^(x86_64|i686|AMD64)$")
+    message(STATUS "x86 detected")
+    if (MSVC)
+        add_compile_options(/arch:AVX2)
+    else()
+        add_compile_options(-mf16c)
+        add_compile_options(-mfma)
+        add_compile_options(-mavx)
+        add_compile_options(-mavx2)
+    endif()
+else()
+    # TODO: support PowerPC
+    message(STATUS "Unknown architecture")
+endif()
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(chatLLaMa
