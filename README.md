@@ -5,6 +5,11 @@
 # chatLLaMa
 llama.cpp Desktop Client Demo 
 
+#Demo
+
+![2023-04-02-15-44-52](https://user-images.githubusercontent.com/81917660/229340110-9c8bd3e1-3118-4fd1-a454-15f0f27145c4.gif)
+
+
 ![image](https://user-images.githubusercontent.com/81917660/227718580-3c55a4b0-117d-4661-a4ea-1ac5a87244d6.png)
 
 ![image](https://user-images.githubusercontent.com/81917660/227721934-a1f4d29e-7783-4a78-a042-1892059f41fb.png)
