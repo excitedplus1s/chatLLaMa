@@ -24,4 +24,8 @@ Chat Mode
 
 
 # Credit
-[llama.cpp]https://github.com/ggerganov/llama.cpp
+[llama.cpp](https://github.com/ggerganov/llama.cpp)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=excitedplus1s/chatLLaMa)](https://star-history.com/#excitedplus1s/chatLLaMa)
