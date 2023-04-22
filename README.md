@@ -1,5 +1,6 @@
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-red.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 ![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)
+![Vistors](https://visitor-badge.laobi.icu/badge?page_id=excitedplus1s.chatLLaMa)
 
 
 # chatLLaMa
